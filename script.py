@@ -1,6 +1,6 @@
 
 def comp_is_int(s):
-	return  1
+	return  isinstance(s,int)
 
 def test_comp_is_int():
 	test_number = 2
